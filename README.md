@@ -12,6 +12,8 @@ Assignment1_AskhatovAmir.mwb     # MySQL Workbench EER diagram
 
 Assignment1_AskhatovAmir.pdf # Report of EER diagram
 
+Practical 6-9.docx # SQL Exercises 
+
 README.md
 
 🗂️ Database Schema
