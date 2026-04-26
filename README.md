@@ -7,8 +7,11 @@ This repository contains the database design and implementation for an Airline C
 
 📁 Repository structure
 Assignment1.pdf     # Exported EER diagram (PDF)
+
 Assignment1_AskhatovAmir.mwb     # MySQL Workbench EER diagram
+
 Assignment1_AskhatovAmir.pdf # Report of EER diagram
+
 README.md
 
 🗂️ Database Schema
