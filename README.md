@@ -1,6 +1,6 @@
 # Database-Modelling
-#Student: Askhatov Amir
-#Course: CP2404 – Database Modelling
+# Student: Askhatov Amir
+# Course: CP2404 – Database Modelling
 
 📋 Project Overview
 This repository contains the database design and implementation for an Airline Charter Management System. The system models the full lifecycle of a charter airline operation — from employee and crew management to aircraft maintenance, bookings, billing, and customer membership.
