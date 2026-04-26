@@ -7,6 +7,8 @@ This repository contains the database design and implementation for an Airline C
 
 🗂️ Database Schema
 The EER diagram covers the following entities and relationships:
+
+
 👤 Employee & Staff
 EntityDescriptionEMPLOYEECore staff table with self-referencing supervisor FKADMIN_STAFFSpecialisation of EMPLOYEE; handles billing and resourcesCREWSpecialisation of EMPLOYEE; further split into PILOT and CABIN_ATTENDANTPILOTStores pilot licence and test datesCABIN_ATTENDANTStores physical/language attributesDIVISIONOrganisational unit; each has one managerSALARY_HISTORYTracks all salary changes; current = record with no end_date
 
@@ -16,14 +18,18 @@ Specialisation constraint: EMPLOYEE is totally and disjointly specialised into C
 ✈️ Aircraft & Flights
 EntityDescriptionAIRCRAFT_TYPEAircraft models (e.g. Cessna, Embraer) with capacity and weight specsAIRCRAFTIndividual aircraft with engine number, purchase info, and warrantyFLIGHTFlight records linking aircraft to departure/arrival detailsAIRCRAFT_REPAIRRepair logs including fault codes, costs, and technician comments
 
+
 🏨 Resources
 EntityDescriptionRESOURCESuperclass for physical resourcesACCESS_CARDCard with pin, unlock code, and access locationLOCKERLocker with floor numberRESOURCE_ASSIGNMENTTracks assignment and return of resources to admin staff
+
 
 💳 Customers & Bookings
 EntityDescriptionCUSTOMERCustomer details with membership and contact infoMEMBERSHIP_CATEGORYDiscount tiers applied at billing timeBOOKINGLinks a customer to a booking date and statusBOOKING_FLIGHTJunction table: which flights are in each booking, with seat/class info
 
+
 💰 Billing & Payments
 EntityDescriptionBILLGenerated per completed flight by admin staffPAYMENTSupports multiple partial payments with different payment modes
+
 
 🎓 Training
 EntityDescriptionTRAININGTraining programmes with cost and scheduleCREW_TRAININGTracks crew attendance, score, and grade per training session
