@@ -5,6 +5,12 @@
 📋 Project Overview
 This repository contains the database design and implementation for an Airline Charter Management System. The system models the full lifecycle of a charter airline operation — from employee and crew management to aircraft maintenance, bookings, billing, and customer membership.
 
+📁 Repository structure
+Assignment1.pdf     # Exported EER diagram (PDF)
+Assignment1_AskhatovAmir.mwb     # MySQL Workbench EER diagram
+Assignment1_AskhatovAmir.pdf # Report of EER diagram
+README.md
+
 🗂️ Database Schema
 The EER diagram covers the following entities and relationships:
 
